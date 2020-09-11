@@ -128,9 +128,42 @@ button:hover{
 }
 
 .artist{
-    width:40%;
+    width:30%;
     text-align:center;
 }
 .artist img{
     width:100%;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 50%;
+    }
+    nav {
+        width: 60%;
+    }
+
+
+    .title-container div {
+        width: 100%;
+    }
+    .artists-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .artist {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .artist .bio {
+        line-height: 1.1;
+        width: 150%;
+        text-align: center;
+    }
+    
 }
