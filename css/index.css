@@ -143,6 +143,8 @@ button:hover{
     nav {
         width: 60%;
     }
+
+
     .title-container div {
         width: 100%;
     }
@@ -163,4 +165,5 @@ button:hover{
         width: 150%;
         text-align: center;
     }
+    
 }
